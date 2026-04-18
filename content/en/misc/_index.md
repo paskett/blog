@@ -1,5 +1,6 @@
 ---
 title: Misc
+draft: true
 params:
     submitted: false
 

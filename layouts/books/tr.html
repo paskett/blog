@@ -1,6 +1,10 @@
 <tr>
-  <td class="products">
+  <td class="titles">
     <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </td>
+
+  <td class="author">
+    {{ .Author }}
   </td>
 
   <td class="tags">
@@ -17,6 +21,7 @@
   </td>
 
   <td class="date">
-    <time class="created-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format ($.Param "dateformat" | default "2 January, 2006") }}</time>
+    <time class="created-date" datetime="{{ .Date.Format " 2006-01-02T15:04:05Z07:00" }}">{{ .Date.Format ($.Param
+      "dateformat" | default "2 January, 2006") }}</time>
   </td>
 </tr>

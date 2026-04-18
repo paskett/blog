@@ -1,13 +1,13 @@
 ---
-title: "Zen demo site"
-baseURL: "https://zen-demo.xdeb.org/"
+title: "Taylor Paskett's Blog"
+baseURL: "https://taylor.paskett.family/"
 theme: "github.com/frjo/hugo-theme-zen/v6"
-copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> license.<!--/Creative Commons License-->'
-languageCode: "en-GB"
+copyright: 'Copyright © 2024-2026 Taylor Paskett'
+languageCode: "en-US"
 defaultContentLanguage: "en"
 pluralizelisttitles: false
 removePathAccents: true
-rssLimit: 20
+rssLimit: 25
 pagination:
   pagerSize: 10
   path: page
@@ -35,22 +35,22 @@ outputs:
 
 params:
   author:
-    name: "Fredrik Jonsson"
-    url: "https://xdeb.org"
-  contact: "frjo@xdeb.org"
-  description: "The zen theme for Hugo demo site."
-  dateformat: "2 January, 2006"
-  favicon: "apple-touch-icon.png"
+    name: "Taylor Paskett"
+    url: "https://taylor.paskett.family"
+  contact: "taylor@paskett.family"
+  description: "Taylor Paskett's Blog"
+  dateformat: "2006-01-02"
+  favicon: "mystic-cactus-3.png"
   feedlinks: true
-  icon: "apple-touch-icon.png"
-  image: "apple-touch-icon.png"
+  icon: "mystic-cactus-3.png"
+  image: "mystic-cactus-3.png"
   imageMaxWidth: 400
   logoWidth: 64
   logoHeight: 64
   mainSections:
     - blog
-  mobileMenu: true
-  poweredby: true
+  mobileMenu: false
+  poweredby: false
   realfavicongenerator: true
   sidebar: false
   submitted: true
@@ -59,39 +59,25 @@ languages:
   en:
     weight: 1
     languageName: "English"
-    languageCode: "en-GB"
+    languageCode: "en-US"
     contentDir: content/en
     menu:
       main:
-        - Name: "Home"
+        - Name: "About Me"
           weight: -10
           pageRef: "/"
         - Name: "Blog"
           weight: 2
           pageRef: "/blog/"
-        - Name: "Podcast"
-          weight: 4
-          pageRef: "/podcast/"
-        - Name: "Products"
+        - Name: "Books"
           weight: 6
-          pageRef: "/products/"
-        - Name: "Misc"
+          pageRef: "/books/"
+        - Name: "Apps"
           weight: 8
-          pageRef: "/misc/"
+          pageRef: "/apps/"
         - Name: "Search"
           weight: 10
           pageRef: "/search/"
         - Name: "Contact"
           weight: 12
           pageRef: "/contact/"
-
-  sv:
-    weight: 2
-    languageName: "Svenska"
-    languageCode: "sv-SE"
-    contentDir: content/sv
-    menu:
-      main:
-        - Name: "Hem"
-          weight: -10
-          pageRef: "/"

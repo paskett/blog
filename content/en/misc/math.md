@@ -1,6 +1,7 @@
 ---
 title: Math
 summary: Examples of math typesetting with KaTeX.
+draft: true
 params:
     submitted: false
     math: true

@@ -9,7 +9,7 @@
 
   // Classes to filter on must be [a-z]+.
   const options = {
-    valueNames: [ 'products', 'tags', 'categories', 'date' ],
+    valueNames: ['titles', 'tags', 'categories', 'date'],
     listClass: 'js-items',
     page: 30,
     pagination: false
@@ -19,7 +19,7 @@
   const jsfilter1 = document.querySelector('.js-filter-1');
   const jsfilter2 = document.querySelector('.js-filter-2');
 
-  jsfilter1.addEventListener('change', function(e) {
+  jsfilter1.addEventListener('change', function (e) {
     const value = e.target.value;
 
     items.filter(function (item) {
@@ -35,9 +35,9 @@
     });
 
     return false;
-   });
+  });
 
-  jsfilter2.addEventListener('change', function(e) {
+  jsfilter2.addEventListener('change', function (e) {
     const value = e.target.value;
 
     items.filter(function (item) {
@@ -53,6 +53,6 @@
     });
 
     return false;
-   });
+  });
 
 })();

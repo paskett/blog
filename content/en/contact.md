@@ -1,12 +1,9 @@
 ---
-title: Contact
+title: Contact Info
 params:
     submitted: false
-
 ---
 
-This contact form is NOT active.
+The best way to get in touch with me is through email: tayl_or at pas_kett dot f_amily (without the underscores).
 
-Nothing will happen if you submit it since there is no backend script setup. The Zen theme comes with a sample PHP backend.
-
-{{< contact >}}
+I don't have social media, other than a LinkedIn account that I try to avoid.

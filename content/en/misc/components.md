@@ -1,6 +1,7 @@
 ---
 title: Components
 summary: Examples of some components classes.
+draft: true
 params:
     submitted: false
     tables: true
