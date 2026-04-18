@@ -9,7 +9,7 @@
 
   // Classes to filter on must be [a-z]+.
   const options = {
-    valueNames: ['titles', 'tags', 'categories', 'date'],
+    valueNames: ['titles', 'tags', 'categories', 'author', 'date'],
     listClass: 'js-items',
     page: 30,
     pagination: false

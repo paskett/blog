@@ -42,9 +42,11 @@ params:
   dateformat: "2006-01-02"
   favicon: "mystic-cactus-3.png"
   feedlinks: true
-  icon: "mystic-cactus-3.png"
+  icon: "favicon.png"
   image: "mystic-cactus-3.png"
   imageMaxWidth: 400
+  logo: true
+  logoPath: "mystic-cactus-3.png"
   logoWidth: 64
   logoHeight: 64
   mainSections:
